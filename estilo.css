@@ -234,12 +234,11 @@ margin: 10px 0 20px 0;
 	padding-bottom: 20px;
 }
 
-@media (max-width: 700px){
-	/*body{background: red;} */
+@media (max-width: 700px){	
 	.menu-btn{
 		display: block;
 	}
-	.nav-main ul.nav-menu{
+	.nav-main ul.nav-menu {
 		display: block;
 		position: absolute;
 		top: 0;
@@ -289,4 +288,58 @@ margin: 10px 0 20px 0;
 	.footer-links .footer-container{
 		grid-template-columns: 1fr;
 	}
+}
+
+.form-container{
+	background-color: #f2f2f2;
+	border-radius: 5px;
+	width: 400px;
+	max-width: 100%;
+	padding: 30px 40px;
+}
+.titulo-login{
+	padding: 20px 35px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.titulo-login h2{
+	margin: 0px;
+}
+.form-control{
+	margin-bottom: 10px;
+	padding-bottom: 20px;
+	position: relative;
+}
+.form-control label{
+	/*para aplicar el paddig*/
+	display: inline-block;
+	/**/
+	padding-bottom: 4px ;
+}
+.form-control input{
+	border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	padding: 10px;
+}
+.form-control i{
+	visibility: hidden;
+	position: absolute;
+	right: 10px;
+	top: 40px;
+}
+.form-control small{
+	visibility: hidden;
+	position: relative;
+	left: 0;
+	bottom: 0;
+}
+button{
+	background-color: #9b59b6;
+	border: 2px solid #f0f0f0;
+	color:#fff;
+	font-size: 18px;
+	border-radius: 4px;
+	display: block;
+	padding: 10px;
+	width: 100%;
 }
